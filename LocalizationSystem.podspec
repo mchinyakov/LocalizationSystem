@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license             = 'MIT'
   s.author              = { "Martins Rudens" => "martins.rudens@gmail.com" }
   s.source              = { :git => "https://github.com/rudensm/LocalizationSystem.git", :tag => s.version.to_s }
-  s.platform            = :ios, '7.0'
+  s.platform            = :ios, '6.0'
   s.requires_arc        = true
   s.source_files        = 'Classes/**/*.{h,m}'
   s.public_header_files = 'Classes/**/*.h'
