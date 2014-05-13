@@ -15,7 +15,7 @@
 
 #pragma mark - NSObject
 
-+ (LocalizationSystem *)sharedInstance
++ (LocalizationSystem *)shared
 {
     static LocalizationSystem *_default = nil;
     if (_default != nil) {
